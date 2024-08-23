@@ -1,0 +1,22 @@
+div>p{
+    background-color: yellow;
+    color: brown;
+    text-align: center;
+    
+}
+div p{
+    color:pink;
+}
+section
+{
+    color: brown;
+}
+p+div{
+    background-color: black;
+}
+div+p{
+    background-color: orange;
+}
+div+div>section>p{
+    color: red;
+}

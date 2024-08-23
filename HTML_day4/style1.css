@@ -1,0 +1,25 @@
+*{
+    color: red;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title
+{color: green;}
+h1{
+    color: blue;
+}
+#t1{color: black;}
+p{
+    background-color: aqua;
+}
+.para
+{background-color: yellow;}
+p.para{
+    background-color: gray;
+}
+.para.text{
+    background-color: pink;
+}

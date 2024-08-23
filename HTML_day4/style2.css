@@ -1,0 +1,23 @@
+P:hover{
+    background-color: brown;
+}
+a:visited
+{
+    background-color: yellow;
+}
+button {
+    border: none;
+    padding: 8px 19px;
+    background-color: green;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    box-shadow: 2px 4px 2px red;
+    transition: all 300ms ease;
+
+
+}
+button:hover
+{background-color: aquamarine;
+    scale: 1.2;
+}
