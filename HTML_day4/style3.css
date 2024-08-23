@@ -1,0 +1,49 @@
+/*body>ul>li:first-child
+{background-color:yellow;}
+p:nth-child(2)
+{background-color: red;}
+
+li:nth-child(3)
+{background-color: red;}
+
+p:nth-of-type(1)
+{background-color: blue;}
+li:last-of-type
+{background-color: yellow;}
+div{
+        border: 10px solid;
+        padding: 10px;
+        border-color: antiquewhite;
+    
+    }
+        */
+  .parent>div{
+    font-size: 24px;
+    background-color: antiquewhite;
+    border: 1px solid;
+    width: 100px;
+    flex-shrink: 0;
+
+
+  }
+  .parent{
+    display:flex;
+    justify-content: flex-start;
+    height: 300px;
+    gap: 10px;
+  }
+  .child1,.child2,.child4
+  {
+    flex-shrink: 1;
+    width: 300;
+  }
+    .child3
+    {
+        flex-grow: 1;
+        flex-shrink: 2;
+
+    }
+    
+
+
+  
