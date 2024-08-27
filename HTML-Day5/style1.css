@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.submit-button{
+    width: 12em;
+}
+.parent{
+    width: 10em;
+    background-color: yellow;
+    font-size: 20px;
+}
+.text{
+    
+    background-color: aqua;
+    width: 10em;
+    font-size: 2em;
+}
+    .btn {
+        border: none;
+        padding: 0.5em 1em;
+        background-color: green;
+        border-radius: 0.3em;
+        font-size: 18px;
+        transition: all 700ms ease;
+        
+    
+     
+    }
+    btn:hover
+    {background-color: aquamarine;
+        scale: 1.2;
+    }
+    .btn:active{
+        scale: 0.9;
+    }
+    .large{
+        font-size: 32px;
+    }
+    .small{
+        font-size: 12px;
+    }
