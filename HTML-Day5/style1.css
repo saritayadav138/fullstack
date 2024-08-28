@@ -1,10 +1,12 @@
 *{
-    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+html{
+    font-size: 32px;
+}
 .submit-button{
-    width: 12em;
+    width: 12rem;
 }
 .parent{
     width: 10em;
@@ -14,14 +16,14 @@
 .text{
     
     background-color: aqua;
-    width: 10em;
+    width: 10rem;
     font-size: 2em;
 }
     .btn {
         border: none;
-        padding: 0.5em 1em;
+        padding: 0.5rem 1em;
         background-color: green;
-        border-radius: 0.3em;
+        border-radius: 0.3rem;
         font-size: 18px;
         transition: all 700ms ease;
         

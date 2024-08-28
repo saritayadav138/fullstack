@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*
+.area{
+    display: grid;
+    grid-template-columns: 1fr 2fr 5fr;
+    grid-template-rows: 100px 100px 100px;
+    background-color: aqua;
+    
+    height: 400px;
+    
+    
+    
+
+}
+.card{
+    background-color: bisque;
+    border: 1px solid gray;
+}
+.c2{
+    grid-row-start:2 ;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+    */
+    .p
+    {
+        height: 200px;
+        width: 200px;
+        background-color: yellow;
+        border: 1px solid red;
+    }
+    .c1,.c2{
+        height: 70px ;
+        width: 70px;
+        background-color: greenyellow;
+        border: 1px solid black;
+
+    }
+    .c1{
+        position: relative;
+        top: 10px;
+    }

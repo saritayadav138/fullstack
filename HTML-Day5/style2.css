@@ -1,0 +1,12 @@
+.p{
+    height: 200px;
+    padding: 16px;
+    background-color: aqua;
+    overflow: hidden;
+}
+.c{
+    height: 40%;
+    border: 1px solid green;
+    background-color: antiquewhite;
+    width: 60%;
+}

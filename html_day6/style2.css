@@ -1,0 +1,23 @@
+/* .parent
+{
+    background-color: yellow;
+    border: 1px solid red;
+    height: 200vh;
+
+}
+.child
+{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    position: sticky;
+    top: 100px;
+} */
+
+p::after{
+    content: '* I am sarita';
+    font-size: 8px;
+    color: red;
+    background-color: aqua;
+}

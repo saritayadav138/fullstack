@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*body
+{height: 300vh;} /* for scroll bar*/
+.parent{
+    border: 1px solid violet;
+    height: 200px;
+    width: 200px;
+}
+.child
+{
+    border: 1px solid blue;
+    width: 60px;
+    height: 60px;
+}
+
+.c2
+{
+    position: relative;
+    left: 60px;
+}
+    
+    .c1
+    
+    {position: relative;
+        z-index: 1;
+    background-color: red;}
+    
+
+.c3
+{
+   position: absolute;
+   
+
+}
+.c2
+{
+    position: relative;
+    background-color: yellow;
+    top: -60px;
+    
+    
+}
